@@ -1,0 +1,9 @@
+[package]
+name = "base-grammar"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nickel = "0.11.0"
+
+
