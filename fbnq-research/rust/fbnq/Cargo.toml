@@ -1,0 +1,11 @@
+[package]
+name = "fbnq"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3 # 0-3，3为最高优化
+lto = true # 链接时优化
+codegen-units = 1 # 减少并行编译单元提高优化
